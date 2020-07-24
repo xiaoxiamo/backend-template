@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.backend_template.dao.PermissionDao">
+    <select id="findRoleAndPermissions" resultType="java.util.HashMap">
+    SELECT R.name,P.url FROM role AS R LEFT JOIN role_permission RP ON R.id=RP.role_id LEFT JOIN permission AS P ON RP.permission_id=P.id
+    </select>
+</mapper>
