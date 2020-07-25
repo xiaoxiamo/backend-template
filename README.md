@@ -12,7 +12,6 @@
 ##### [九、单元测试](https://blog.csdn.net/qq_22136439/article/details/107467769)
 ##### [十、数据校验](https://blog.csdn.net/qq_22136439/article/details/107468127)
 ##### [十一、统一日志规范](https://blog.csdn.net/qq_22136439/article/details/107566953)
-##### 未完待续...
 ### 特征&技术选型
 - 最佳实践的项目结构、配置文件
 - 整合MyBatis、Druid连接池、PageHelper分页插件
